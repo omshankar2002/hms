@@ -1,0 +1,241 @@
+/* Roisk Luxury Hotel Business HTML-5 Template */
+
+/*** 
+
+====================================================================
+	About One
+====================================================================
+
+***/
+
+.about-one{
+	position:relative;
+	overflow: hidden;
+	padding: 110px 0px 80px;
+}
+
+.about-one .column{
+	position:relative;
+	margin-bottom: 30px;
+}
+
+.about-one_rotate-title{
+	position:absolute;
+	left:0px;
+	top:0px;
+	line-height:1em;
+	font-size: 70px;
+	font-weight: 600;
+	padding: 10px 50px 15px;
+	letter-spacing:5px;
+	display: inline-block;
+	background-color:#484848;
+	text-transform: uppercase;
+	font-family: "Barlow Condensed", sans-serif;
+	transform: rotate(-90deg);
+	transform-origin: 51% 261%;
+}
+
+.about-one_content{
+	position:relative;
+	padding-left: 130px;
+}
+
+.about-one_image-outer{
+	position:relative;
+	text-align:right;
+	padding-left: 120px;
+	padding-bottom: 95px;
+}
+
+.about-one_image{
+	position:relative;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.about-one_image-two{
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.about-two_counter-outer{
+	position:relative;
+	margin-top: 40px;
+}
+
+/*** 
+
+====================================================================
+	About Two
+====================================================================
+
+***/
+
+.about-two{
+	position:relative;
+	overflow: hidden;
+	padding: 110px 0px 110px;
+}
+
+.about-two .inner-container{
+	position:relative;
+}
+
+.about-two .column{
+	position:relative;
+}
+
+.about-two_image{
+	position:relative;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.about-two_image-two{
+	position:relative;
+	margin-top: -120px;
+	margin-left: 170px;
+	overflow: hidden;
+	display:inline-block;
+}
+
+.about-two_image-three{
+	position:absolute;
+	right:60px;
+	bottom:280px;
+	overflow: hidden;
+	display:inline-block;
+}
+
+/*** 
+
+====================================================================
+	About Three
+====================================================================
+
+***/
+
+.about-three{
+	position:relative;
+	overflow: hidden;
+	padding: 110px 0px 80px;
+}
+
+.about-three .pattern-one{
+	position: absolute;
+    right: -80px;
+    top: 220px;
+    width: 339px;
+    height: 594px;
+    background-repeat: no-repeat;
+}
+
+.about-three .column{
+	position:relative;
+	margin-bottom: 30px;
+}
+
+.about-three_image{
+	position:relative;
+	overflow: hidden;
+	padding-bottom: 100px;
+	display: inline-block;
+}
+
+.about-three_image-two{
+	position:absolute;
+	left:-120px;
+	bottom:0px;
+	margin: 0px;
+	overflow: hidden;
+	display:inline-block;
+	border:8px solid var(--white-color);
+	box-shadow: 0px 10px 15px rgba(0,0,0,0.20);
+}
+
+.about-three_bold{
+	position:relative;
+	font-size: 34px;
+	font-weight: 600;
+	max-width: 500px;
+	line-height: 44px;
+	margin-bottom: 20px;
+	color: var(--color-two);
+	text-transform: uppercase;
+	font-family: "Barlow Condensed", sans-serif;
+}
+
+.about-three_content{
+	position:relative;
+	padding-left: 40px;
+}
+
+.about-three p{
+	max-width: 550px;
+	margin-bottom: 15px;
+}
+
+.about-three .sec-title{
+	max-width: 550px;
+	margin-bottom: 20px;
+}
+
+.about-three_info{
+	position:relative;
+	margin-top: 20px;
+}
+
+.about-three_info-inner{
+	position:relative;
+	padding-top: 10px;
+	padding-left: 100px;
+	color: var(--color-two);
+}
+
+.about-three_info-author{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+}
+
+.about-three_info strong{
+	position:relative;
+	display: block;
+	font-size: 28px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: var(--color-two);
+	font-family: "Barlow Condensed", sans-serif;
+}
+
+.about-three_options{
+	position:relative;
+	margin-top: 45px;
+	gap: 40px;
+}
+
+.about-three_signature{
+	position:relative;
+	font-size: 44px;
+	line-height:1em;
+	color: var(--color-two);
+	text-transform: lowercase;
+	font-family: "Dancing Script", cursive;
+}
+
+.about-three_dotted{
+	position:absolute;
+	right:0px;
+	bottom:0px;
+	width: 246px;
+    height: 246px;
+	z-index:-1;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,356 @@
+/* Roisk Luxury Hotel Business HTML-5 Template */
+
+/*** 
+
+====================================================================
+	Testimonial One
+====================================================================
+
+***/
+
+.testimonial-one{
+	position:relative;
+	padding: 100px 0px 100px;
+	background-color:#f6f8fb;
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+.testimonial-block_one{
+	position:relative;
+	z-index:1;
+	margin-bottom: 30px;
+}
+
+.testimonial-block_one-inner{
+	position:relative;
+	padding: 45px 60px 15px 0px;
+}
+
+.testimonial-block_one-inner:before{
+	position:absolute;
+	content:'';
+	left:50px;
+	top:0px;
+	right:0px;
+	bottom:30px;
+	z-index: -1;
+	border-radius: 0px 35px 0px 0px;
+	background-color: var(--white-color);
+}
+
+.testimonial-block_one-inner:after{
+	position:absolute;
+	content:'';
+	left:32px;
+	top:100px;
+	right:100px;
+	bottom:14px;
+	z-index: -1;
+	border-radius:0px 0px 0px 30px;
+	border-left:2px solid var(--main-color);
+	border-bottom:2px solid var(--main-color);
+}
+
+.testimonial-block_one-quote{
+	position:absolute;
+	right:0px;
+	top:0px;
+	z-index:1;
+	width: 60px;
+	height: 60px;
+	font-size: 24px;
+	text-align:center;
+	line-height: 60px;
+	border-radius: 50px;
+	display: inline-block;
+	color: var(--main-color);
+	background-color:#ebebeb;
+	font-family: "flaticon_roisk-flat";
+}
+
+.testimonial-block_one-text{
+	position:relative;
+	font-size: 18px;
+	opacity:0.70;
+	line-height: 32px;
+	margin-bottom: 30px;
+	padding-left: 90px;
+	color: var(--color-two);
+}
+
+.testimonial-block_one-info{
+	position:relative;
+	font-size: 16px;
+	min-height: 152px;
+	padding-left: 220px;
+	padding-top: 20px;
+	color: var(--main-color);
+	text-transform: uppercase;
+}
+
+.testimonial-block_one-author{
+	position:absolute;
+	left:0px;
+	top:0px;
+	
+	display: inline-block;
+}
+
+.testimonial-block_one-author img{
+	position:relative;
+	overflow: hidden;
+	border-radius: 150px;
+	display: inline-block;
+	border:5px solid var(--white-color);
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.10);
+}
+
+.testimonial-block_one-info strong{
+	position:relative;
+	display: block;
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 12px;
+	color: var(--color-two);
+	text-transform: capitalize;
+	font-family: "Barlow Condensed", sans-serif;
+}
+
+/*** 
+
+====================================================================
+	Testimonial One
+====================================================================
+
+***/
+
+.testimonial-two {
+	position: relative;
+	overflow: hidden;
+	background-position: right bottom;
+	background-color: var(--color-two);
+}
+
+@media (max-width: 767.98px) {
+	.testimonial-two {
+		background-image: none !important;
+	}
+}
+
+.testimonial-two .single-item_carousel-pagination {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	bottom: auto;
+	text-align: right;
+}
+
+@media (max-width: 575.98px) {
+	.testimonial-two .single-item_carousel-pagination {
+		display: none;
+	}
+}
+
+.testimonial-two .single-item_carousel-pagination .swiper-pagination-bullet {
+	position: relative;
+	width: 5px;
+	height: 5px;
+	opacity: 1;
+	z-index: 1;
+	margin: 0px 16px !important;
+	border-radius: 50px;
+	transition: all 500ms ease;
+	background-color: var(--white-color);
+}
+
+.testimonial-two .single-item_carousel-pagination .swiper-pagination-bullet:before {
+	position: absolute;
+	content: "";
+	left: -7px;
+	top: -7px;
+	right: -7px;
+	bottom: -7px;
+	opacity: 0;
+	border-radius: 50px;
+	border: 1px solid var(--white-color);
+}
+
+.testimonial-two .single-item_carousel-pagination .swiper-pagination-bullet:hover::before {
+	opacity: 1;
+	color: var(--white-color);
+}
+
+.testimonial-two .single-item_carousel-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.testimonial-two .single-item_carousel-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active::before {
+	opacity: 1;
+	color: var(--white-color);
+}
+
+.testimonial-two .outer-container {
+	position: relative;
+}
+
+.testimonial-two .right-box {
+	position: relative;
+	width: 50%;
+	float: right;
+}
+
+@media (max-width: 991.98px) {
+	.testimonial-two .right-box {
+		width: 100%;
+	}
+}
+
+.testimonial-two .right-box_inner {
+	position: relative;
+	max-width: 650px;
+	width: 100%;
+	float: left;
+	padding: 100px 15px 100px 100px;
+}
+
+@media (max-width: 1399.98px) {
+	.testimonial-two .right-box_inner {
+		padding-left: 30px;
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.testimonial-two .right-box_inner {
+		padding-left: 15px;
+	}
+}
+
+.testimonial-two .right-box .carousel-outer {
+	position: relative;
+	padding-top: 70px;
+}
+
+.testimonial-two .right-box .carousel-outer:before {
+	position: absolute;
+	content: "";
+	left: 0px;
+	top: 0px;
+	height: 1px;
+	width: 200%;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.testimonial-two .testimonial-two_image {
+	position: relative;
+	display: none;
+}
+
+@media (max-width: 991.98px) {
+	.testimonial-two .testimonial-two_image {
+		display: block;
+	}
+}
+
+.testimonial-two .testimonial-two_image img {
+	position: relative;
+	width: 100%;
+	display: block;
+}
+
+.testimonial-two .left-box {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	background-size: cover;
+}
+
+@media (max-width: 991.98px) {
+	
+	.testimonial-two .left-box {
+		position: relative;
+		width: 100%;
+		float: left;
+	}
+  
+}
+
+.testimonial-two .left-box_inner {
+  position: relative;
+  max-width: 650px;
+}
+
+/* Testimonial Block Two */
+
+.testimonial-block_two {
+	position: relative;
+}
+
+.testimonial-block_two .inner {
+	position: relative;
+}
+
+
+.testimonial-block_two .rating{
+	position: relative;
+	color: var(--main-color);
+}
+
+.testimonial-block_two .inner .author {
+	position: relative;
+	width: 75px;
+	height: 75px;
+	overflow: hidden;
+	margin-bottom: 20px;
+	border-radius: 50px;
+}
+
+.testimonial-block_two .inner .designation {
+	position: relative;
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 15px;
+	color: var(--white-color);
+}
+
+.testimonial-block_two .inner .text {
+	position: relative;
+	font-size: 20px;
+	line-height: 34px;
+	margin-top: 20px;
+	color: var(--white-color);
+}
+
+@media (max-width: 767.98px) {
+	.testimonial-block_two .inner .text {
+		font-size: 18px;
+		line-height: 28px;
+	}
+}
+
+.testimonial-block_two .inner .info {
+	position: relative;
+	font-size: 14px;
+	margin-top: 40px;
+	padding-bottom: 10px;
+	color: var(--white-color);
+}
+
+.testimonial-block_two .inner .info .quote {
+	position: absolute;
+	left: 0px;
+	top: -20px;
+	z-index:-1;
+	opacity:0.20;
+	font-size: 60px;
+	line-height: 1em;
+	color: var(--main-color);
+	font-family: "flaticon_roisk-flat";
+}
+
+.testimonial-block_two .inner .info strong {
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 0px;
+	color: var(--white-color);
+}

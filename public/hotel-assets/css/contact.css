@@ -1,0 +1,78 @@
+/* Roisk Luxury Hotel Business HTML-5 Template */
+
+/*** 
+
+====================================================================
+	Contact One
+====================================================================
+
+***/
+
+.contact-one{
+	position:relative;
+	padding: 110px 0px 80px;
+}
+
+.contact-one_title-column{
+	position:relative;
+	margin-bottom: 30px;
+}
+
+.contact-one_form-column{
+	position:relative;
+	margin-bottom: 30px;
+}
+
+.contact-one_form-outer{
+	position:relative;
+}
+
+.contact-one_info-list{
+	position: relative;
+}
+
+.contact-one_info-list li{
+	position: relative;
+	min-height: 80px;
+	font-size: 16px;
+	margin-bottom: 20px;
+	padding-left: 100px;
+	color: var(--black-color);
+}
+
+.contact-one_info-list li .icon{
+	position: absolute;
+	left: 0px;
+	top: 2px;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 36px;
+	color: var(--white-color);
+	background-color: var(--main-color);
+	font-family: "flaticon_roisk-flat";
+}
+
+.contact-one_info-list li strong{
+	position: relative;
+	display: block;
+	font-weight: 700;
+	font-size: 18px;
+	margin-top: 5px;
+	line-height: 30px;
+	word-wrap: break-word;
+	color: var(--black-color);
+}
+
+/* Map Two */
+
+.map-one{
+	position: relative;
+}
+
+.map-one iframe{
+	position: relative;
+	width: 100%;
+	height: 480px;
+}

@@ -1,0 +1,474 @@
+/* Constrc Construction Business HTML-5 Template */
+
+/*** 
+
+====================================================================
+	Main Footer
+====================================================================
+
+***/
+
+.main-footer{
+	position:relative;
+	overflow:hidden;
+	margin-top: -130px;
+}
+
+.main-footer .widgets-section{
+	position:relative;
+	padding: 220px 0px 60px;
+}
+
+.main-footer .footer_column{
+	position:relative;
+	margin-bottom: 30px;
+}
+
+.main-footer .footer_pattern{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: var(--main-color);
+	background-repeat: repeat;
+}
+
+.main-footer .footer_pattern:before{
+	position:absolute;
+	content:'';
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	opacity:0.10;
+	z-index:1;
+	background-color:#044246;
+}
+
+.main-footer .inner-container{
+	position:relative;
+	z-index:1;
+}
+
+.footer-logo{
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.footer-text{
+	position: relative;
+	line-height: 28px;
+	font-size: 16px;
+	margin-bottom: 30px;
+	color: var(--white-color);
+}
+
+.footer-social_box{
+	position: relative;
+}
+
+.footer-social_box strong{
+	position: relative;
+	display: block;
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 20px;
+	color: var(--white-color);
+	text-transform: uppercase;
+}
+
+.footer-social_box a{
+	position: relative;
+	width: 42px;
+	height: 42px;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+	display: inline-block;
+	color: var(--white-color);
+	margin-right: var(--margin-right-5);
+	border: 1px solid var(--white-color);
+	font-family: 'Font Awesome 5 Brands';
+}
+
+.footer-social_box a:hover{
+	color: var(--color-two);
+	background-color: var(--white-color);
+}
+
+.footer-title{
+	position: relative;
+	margin-top: 10px;
+	font-weight: 500;
+	letter-spacing:1px;
+	margin-bottom: 20px;
+	color: var(--white-color);
+	text-transform: uppercase;
+}
+
+.footer-column{
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.footer-list{
+	position: relative;
+}
+
+.footer-list li{
+	position: relative;
+	margin-bottom: 12px;
+}
+
+.footer-list li:last-child{
+	margin-bottom: 0px;
+}
+
+.footer-list li a{
+	position: relative;
+	font-size:17px;
+	font-weight: 400;
+	letter-spacing:0.2px;
+	text-transform: capitalize;
+	color: var(--white-color);
+	transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	-webkit-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+}
+
+.footer-list li a::before{
+	position: absolute;
+	content: '';
+	left: 0px;
+	top: 7px;
+	opacity: 0;
+	width : 30px;
+	height: 8px;
+	background:url(../images/icons/arrow.png) no-repeat;
+	transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	-webkit-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+}
+
+.footer-list li a:hover::before{
+	opacity: 1;
+}
+
+.footer-list li a:hover{
+	padding-left: 35px;
+}
+
+/* News Widget */
+
+.news-widget-block{
+	position: relative;
+	min-height: 70px;
+	padding-left: 85px;
+	margin-bottom: 25px;
+}
+
+.news-widget_image{
+	position: absolute;
+	left: 0px;
+	top: 2px;
+	width: 70px;
+	overflow: hidden;
+}
+
+.news-widget_title{
+	position: relative;
+	font-weight: 500;
+}
+
+.news-widget_title a{
+	position: relative;
+	color: var(--white-color);
+}
+
+.news-widget_post-date{
+	position: relative;
+	font-weight: 400;
+	font-size: 14px;
+	color: var(--white-color);
+	text-transform: uppercase;
+}
+
+.news-widget-block:last-child{
+	margin-bottom: 0px;
+}
+
+.news-widget_title a:hover{
+	color: var(--main-color);
+}
+
+.footer-bottom{
+	position:relative;
+	padding: 25px 0px;
+	z-index:1;
+	background-color: #044246;
+}
+
+.main-footer_copyright{
+	position: relative;
+	font-size: 16px;
+	color: var(--white-color);
+	text-transform: uppercase;
+}
+
+.footer-bottom .d-flex{
+	gap: 15px;
+}
+
+.footer-bottom_navs{
+	position:relative;
+}
+
+.footer-bottom_navs li{
+	position:relative;
+	margin-left: 10px;
+	display: inline-block;
+}
+
+.footer-bottom_navs li a{
+	position:relative;
+	font-size: 16px;
+	color: var(--white-color);
+	text-transform: uppercase;
+}
+
+.footer-bottom_navs li a:hover{
+	color: var(--main-color);
+}
+
+/* Gallery Box */
+
+.main-footer .gallery-box{
+	position:relative;
+	padding-bottom: 100px;
+}
+
+.instagram-block_one{
+	position: relative;
+}
+
+.instagram-block_one-inner{
+	position: relative;
+}
+
+.instagram-block_one-image{
+	position: relative;
+}
+
+.instagram-block_one-image img{
+	position: relative;
+	width: 100%;
+	display: block;
+}
+
+.instagram-block_one-overlay{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	transition: -webkit-transform 0.4s ease;
+	transition: transform 0.4s ease;
+	transition: transform 0.4s ease,-webkit-transform 0.4s ease;
+	-webkit-transform: scale(0, 1);
+	-ms-transform: scale(0, 1);
+	transform: scale(0, 1);
+	-webkit-transform-origin: right center;
+	-ms-transform-origin: right center;
+	transform-origin: right center;
+}
+
+.instagram-block_one-overlay:before{
+	position: absolute;
+	content:'';
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	opacity:0.75;
+    background-color: var(--main-color);
+}
+
+.instagram-block_one-inner:hover .instagram-block_one-overlay{
+	-webkit-transform: scale(1, 1);
+	-ms-transform: scale(1, 1);
+	transform: scale(1, 1);
+	-webkit-transform-origin: left center;
+	-ms-transform-origin: left center;
+	transform-origin: left center;
+}
+
+.instagram-block_one-icon{
+	position: relative;
+	font-size: 40px;
+	color: var(--white-color);
+}
+
+
+.main-footer.style-two{
+	margin-top:0px;
+}
+
+.main-footer.style-two .widgets-section{
+	padding-top: 100px;
+}
+
+.footer-contact_list{
+	position:relative;
+}
+
+.footer-contact_list li{
+	position:relative;
+	font-size: 18px;
+	padding-left: 70px;
+	margin-bottom: 20px;
+	color: var(--white-color);
+}
+
+.footer-contact_list li .icon{
+	position:absolute;
+	left:0px;
+	top:5px;
+	font-size: 50px;
+	line-height:1em;
+	color: var(--main-color);
+	font-family: "flaticon_roisk-flat";
+}
+
+.footer-contact_list li strong{
+	position:relative;
+	display: block;
+	font-size: 22px;
+	margin-bottom: 10px;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-family: "Barlow Condensed", sans-serif;
+}
+
+.footer-contact_list li:last-child{
+	margin-bottom: 0px;
+}
+
+/* Newsletter Box */
+
+.newsletter-box{
+    position: relative;
+	margin-top:35px;
+}
+
+.newsletter-box .form-group {
+    position: relative;
+    margin: 0px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.newsletter-box .form-group input[type="text"],
+.newsletter-box .form-group input[type="email"] {
+    position: relative;
+    line-height: 43px;
+    display: block;
+    height: 64px;
+    width: 100%;
+	border-radius: 50px;
+    box-shadow: inherit;
+    font-size: 16px;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    padding: 10px 30px;
+    color:var(--white-color);
+    background: rgba(var(--white-color-rgb), 0.10);
+}
+
+.newsletter-box .form-group button {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+	width:55px;
+	height:55px;
+	font-size: 20px;
+	font-weight: 500;
+	text-align: center;
+	border-radius:50px;
+	border-radius: 50px;
+    display: inline-block;
+    color: var(--white-color);
+    background-color: var(--main-color);
+	font-family: "flaticon_roisk-flat";
+}
+
+.newsletter-box .form-group button:hover{
+	background-color: var(--color-three);
+}
+
+/* Newsletter Box Two */
+
+.newsletter-box_two{
+    position: relative;
+}
+
+.newsletter-box_two .form-group {
+    position: relative;
+    margin: 0px;
+    width: 100%;
+	display: block;
+    max-width: 550px;
+}
+
+.newsletter-box_two .form-group input[type="text"],
+.newsletter-box_two .form-group input[type="email"] {
+    position: relative;
+    line-height: 43px;
+    display: block;
+    height: 64px;
+    width: 550px;
+	border-radius: 50px;
+    box-shadow: inherit;
+    font-size: 16px;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    padding: 10px 30px;
+    color:var(--white-color);
+    background: rgba(var(--white-color-rgb), 0.20);
+}
+
+.newsletter-box_two .form-group button {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+	width:55px;
+	height:55px;
+	font-size: 20px;
+	font-weight: 500;
+	text-align: center;
+	border-radius:50px;
+	border-radius: 50px;
+    display: inline-block;
+    color: var(--white-color);
+    background-color: var(--main-color);
+	font-family: "flaticon_roisk-flat";
+}
+
+.newsletter-box_two .form-group button:hover{
+	background-color: var(--color-three);
+}

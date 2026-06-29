@@ -1,0 +1,204 @@
+/* Roisk Luxury Hotel Business HTML-5 Template */
+
+/*** 
+
+====================================================================
+	Pricing One
+====================================================================
+
+***/
+
+.pricing-one{
+	position:relative;
+	padding: 110px 0px 90px;
+	background-color:#f6f7f9;
+}
+
+.pricing-one .pattern-one{
+	position: absolute;
+    right: 0px;
+    top: 220px;
+    width: 339px;
+    height: 594px;
+    background-repeat: no-repeat;
+}
+
+.pricing-one .pattern-two{
+	position: absolute;
+    left: 0px;
+    top: 220px;
+    width: 339px;
+    height: 594px;
+    background-repeat: no-repeat;
+}
+
+.price-block_one{
+	position:relative;
+	margin-bottom:30px;
+	-webkit-transition:all 900ms ease;
+	-ms-transition:all 900ms ease;
+	-o-transition:all 900ms ease;
+	-moz-transition:all 900ms ease;
+	transition:all 900ms ease;
+}
+
+.price-block_one-inner{
+	position:relative;
+	padding:50px 40px;
+	overflow:hidden;
+	border-radius:45px;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	transition:all 500ms ease;
+	border:3px solid var(--main-color);
+	background-color:var(--white-color);
+}
+
+.price-block_one-inner:hover{
+	border-color:#00022A;
+}
+
+.price-block_one-inner:before{
+	position:absolute;
+	content:'';
+	left:0px;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	opacity:0;
+	transform:scale(0.1,1);
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	transition:all 500ms ease;
+	background-color:var(--color-two);
+}
+
+.price-block_one-inner:hover::before{
+	opacity:1;
+	transform:scale(1,1);
+}
+
+.price-block_one.active .price-block_one-inner{
+	border-color:var(--color-two);
+}
+
+.price-block_one.active .price-block_one-inner::before{
+	opacity:1;
+	transform:scale(1,1);
+}
+
+.price-block_one-icon{
+	position:absolute;
+	right:35px;
+	top:35px;
+	font-size: 75px;
+	line-height:1em;
+	color:var(--color-two);
+	font-family: "flaticon_roisk-flat";
+}
+
+.price-block_one-subtitle{
+	position:relative;
+	font-size:20px;
+	font-weight:600;
+	color:var(--main-color);
+	text-transform:uppercase;
+}
+
+.price-block_one-inner:hover .price-block_one-icon{
+	animation: wobble 1s;
+}
+
+.price-block_one-inner:hover .price-block_one-icon,
+.price-block_one-inner:hover .price-block_one-subtitle,
+.price-block_one-inner:hover .price-block_one-title,
+.price-block_one-inner:hover .price-block_one-text,
+.price-block_one-inner:hover .price-block_one-price,
+.price-block_one-inner:hover .price-block_one-list li{
+	color:var(--white-color);
+}
+
+.price-block_one.active .price-block_one-icon,
+.price-block_one.active .price-block_one-subtitle,
+.price-block_one.active .price-block_one-title,
+.price-block_one.active .price-block_one-text,
+.price-block_one.active .price-block_one-price,
+.price-block_one.active .price-block_one-list li{
+	color:var(--white-color);
+}
+
+.price-block_one-title{
+	position:relative;
+	font-size:36px;
+	font-weight:700;
+	margin-top:30px;
+	color:var(--black-color);
+	text-transform:uppercase;
+	font-family: "Barlow Condensed", sans-serif;
+}
+
+.price-block_one-text{
+	position:relative;
+	font-size:18px;
+	opacity:0.80;
+	margin-top:20px;
+	line-height:30px;
+	color:var(--color-two);
+}
+
+.price-block_one-price{
+	position:relative;
+	font-weight:700;
+	margin-top:20px;
+	font-size:68px;
+	line-height:1em;
+	color:var(--black-color);
+	text-transform:capitalize;
+	font-family: "Barlow Condensed", sans-serif;
+}
+
+.price-block_one-list{
+	position:relative;
+	margin-top:30px;
+}
+
+.price-block_one-list li{
+	position:relative;
+	padding-left:35px;
+	font-size:22px;
+	padding-top:5px;
+	margin-bottom:20px;
+	letter-spacing: 0.50;
+	color:var(--color-two);
+	text-transform:uppercase;
+	font-family: "Barlow Condensed", sans-serif;
+}
+
+.price-block_one-list li:before{
+	position:absolute;
+	content: "\f12b";
+	left:0px;
+	top:5px;
+	font-family: "flaticon_roisk-flat";
+}
+
+.price-block_one-list li:last-child{
+	margin-bottom:0px;
+}
+
+.price-block_one-btn{
+	position:relative;
+	width: 100%;
+	margin-top:40px;
+	font-size: 20px;
+	text-align:center;
+	padding: 15px 15px;
+	text-transform: uppercase;
+	color: var(--white-color);
+	background-color: var(--main-color);
+	font-family: "Barlow Condensed", sans-serif;
+}

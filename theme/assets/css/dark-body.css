@@ -1,0 +1,233 @@
+/* Roisk Luxury Hotel Business HTML-5 Template */
+
+/* Want Sticky Header */
+
+.want-sticky-header .main-header .sticky-header{
+	position:relative;
+	display:none;
+}
+
+/* Dark Version Style CSS Code */
+
+.dark-body .reply-comment,
+.dark-body{
+	background-color: #0b0b0b;
+}
+
+.dark-body .faq-one,
+.dark-body .order-box,
+.dark-body .service-four,
+.dark-body .project-two,
+.dark-body .pricing-one,
+.dark-body .comments-area,
+.dark-body .service-three,
+.dark-body .availability-one,
+.dark-body .testimonial-one,
+.dark-body .features-one:before,
+.dark-body .cart-total-box,
+.dark-body .mobile-menu .menu-box,
+.dark-body .news-block_four-more,
+.dark-body .blog-detail blockquote:before,
+.dark-body .register-one .form-column .inner-column,
+.dark-body .shop-detail_gallery-column .thumb,
+.dark-body .service-detail .accordion-box,
+.dark-body .shop-item .inner-box .image,
+.dark-body .team-detail_form .inner-container,
+.dark-body .shop-detail_gallery-column .image,
+.dark-body .shipping-outer .cart-shipping-box,
+.dark-body .sidebar .related-posts .post .post-thumb{
+	background-color: #2c2c2f;
+}
+
+.dark-body ,
+.dark-body ,
+.dark-body ,
+.dark-body ,
+.dark-body ,
+.dark-body ,
+.dark-body ,
+.dark-body ,
+.dark-body ,
+.dark-body .mobile-menu .close-btn,
+.dark-body .main-header .mobile-menu .navigation li > a,
+.dark-body .contact-one_info-list li strong,
+.dark-body .contact-one_info-list li,
+.dark-body .error-section h2,
+.dark-body .error-section h1,
+.dark-body .comment-form-outer .rating strong,
+.dark-body .comment-box .comment-time,
+.dark-body .comments-area .group-title h4,
+.dark-body .blog-more_posts h6,
+.dark-body .blog-more_posts .date,
+.dark-body .blog-author-post_socials li a,
+.dark-body .blog-author-post h5,
+.dark-body .social-links_title,
+.dark-body .post-share-options a,
+.dark-body .post-share-options strong,
+.dark-body .blog-detail h4,
+.dark-body .blog-detail_title,
+.dark-body .blog-detail_meta li .icon,
+.dark-body .blog-detail_meta li,
+.dark-body .popular-tags a,
+.dark-body .post-widget .post h5 a,
+.dark-body .news-block_four-title a,
+.dark-body .news-block_four-meta li,
+.dark-body .coming-soon .emailed-form .text,
+.dark-body .coming-soon .emailed-form h3,
+.dark-body .register-one h3,
+.dark-body .shipping-form .check-box label,
+.dark-body .order-box .order-total,
+.dark-body .order-totals li span,
+.dark-body .checkout-section h4,
+.dark-body .shipping-list li,
+.dark-body .shoping-cart-section .check-box label,
+.dark-body .cart-totals li,
+.dark-body .shoping-cart-section .total-column .title-box h6,
+.dark-body .cart-table tbody tr td.sub-total,
+.dark-body .cart-table tbody tr td.price,
+.dark-body .cart-table .prod-text,
+.dark-body .cart-table .prod-title,
+.dark-body .cart-table thead tr th,
+.dark-body .related-products h3,
+.dark-body .comment-box .text,
+.dark-body .comment-box .comment-info,
+.dark-body .prod-tabs .tabs-content p,
+.dark-body .shop-detail_socials li a,
+.dark-body .shop-detail_socials .share,
+.dark-body .shop-detail_list li,
+.dark-body .shop-detail_list li span,
+.dark-body .quantity-box .bootstrap-touchspin .glyphicon-chevron-down:before,
+.dark-body .quantity-box .bootstrap-touchspin .glyphicon-chevron-up:before,
+.dark-body .quantity-box .item-quantity input.qty-spinner,
+.dark-body .shop-detail_text,
+.dark-body .shop-detail_price,
+.dark-body .shop-detail_rating i,
+.dark-body .shop-detail_rating .fa-star,
+.dark-body .shop-detail_title,
+.dark-body .shop-section .lower-text .products,
+.dark-body .shop-item .inner-box .lower-content .cart,
+.dark-body .shop-item .inner-box .lower-content .price,
+.dark-body .shop-item .inner-box .lower-content h3 a,
+.dark-body .sidebar .related-posts .post h4 a,
+.dark-body .shop-cat li a,
+.dark-body .shop-section .items-sorting .total-items,
+.dark-body .more-projects a,
+.dark-body .project-detail_list-two li span,
+.dark-body .project-detail h3,
+.dark-body .project-detail_list li strong,
+.dark-body .project-detail_list li,
+.dark-body .project-detail_heading,
+.dark-body .project-detail_location,
+.dark-body .service-detail h2,
+.dark-body .service-detail h3,
+.dark-body .sidebar-title h4,
+.dark-body .team-detail_form .title-box h2,
+.dark-body .team-detail_list li,
+.dark-body .education-block strong,
+.dark-body .team-detail .content-box h3,
+.dark-body .team-detail .content-box .title,
+.dark-body .privacy-section .privacy-list li,
+.dark-body .privacy-section h4,
+.dark-body .privacy-section h3,
+.dark-body .service-block_four-title a,
+.dark-body .features-three_list li,
+.dark-body .features-three_title,
+.dark-body .about-three_signature,
+.dark-body .about-three_info-inner,
+.dark-body .about-three_info strong,
+.dark-body .about-three_bold,
+.dark-body .default-count-box,
+.dark-body .default-skill-title,
+.dark-body .about-one_list li,
+.dark-body .skill-one .bold-text,
+.dark-body .room-block_one-list li,
+.dark-body .room-block_one-price,
+.dark-body .room-block_one-heading a,
+.dark-body .room-block_one-title,
+.dark-body .counter-block_two-text,
+.dark-body .property-search-form .form-group label,
+.dark-body .news-block_one-title a,
+.dark-body .news-block_one-date,
+.dark-body .team-one .lower-box .lower-text,
+.dark-body .counter-block_one-text,
+.dark-body .counter-block_one strong,
+.dark-body .counter-block_one .count-box,
+.dark-body .sec-title_heading{
+	color: var(--white-color);
+}
+
+.dark-body .text,
+.dark-body p,
+.dark-body .blog-author-post .text,
+.dark-body .blog-detail_text,
+.dark-body .post-widget .post .post-date,
+.dark-body .news-block_four-text,
+.dark-body .sec-title_text{
+	color:rgba(var(--white-color-rgb), 0.70);
+}
+
+.dark-body .clock-second,
+.dark-body .clock-minute,
+.dark-body .clock-hour,
+.dark-body .counter-block_two-inner .border-layer:before{
+	background-color: var(--white-color);
+}
+
+.dark-body .clock-wrapper,
+.dark-body .more-projects:before,
+.dark-body .rgba-color{
+	background-color:rgba(var(--white-color-rgb), 0.05);
+}
+
+.dark-body .cart-totals li,
+.dark-body .cart-table tbody tr .prod-column .column-box .prod-thumb,
+.dark-body .cart-table tbody tr,
+.dark-body .shop-detail .prod-tabs .tab-btns::before,
+.dark-body .shop-detail_gallery-column .thumb,
+.dark-body .shop-detail_socials li a,
+.dark-body .item-quantity,
+.dark-body .more-projects,
+.dark-body .order-box,
+.dark-body .post-widget .post,
+.dark-body .shipping-list li,
+.dark-body .order-totals li,
+.dark-body .popular-tags a,
+.dark-body .post-share-options a,
+.dark-body .main-header .mobile-menu .navigation,
+.dark-body .main-header .mobile-menu .navigation li,
+.dark-body .main-header .mobile-menu .navigation li > ul > li:first-child,
+.dark-body .register-one .form-column .inner-column,
+.dark-body .shipping-outer .cart-shipping-box,
+.dark-body .privacy-section .privacy-content{
+	border-color:rgba(var(--white-color-rgb), 0.20);
+}
+
+
+.dark-body .room-block_one-list li .icon,
+.dark-body .counter-block_two-inner .border-layer{
+	border-color: var(--white-color);
+}
+
+.dark-body .white-bg{
+	background-color: var(--white-color);
+}
+
+.dark-body .bg-color{
+	background-color: rgba(var(--white-color-rgb), 0.10);
+}
+
+.dark-body .skill-one_icon{
+	opacity:0.05;
+}
+
+.dark-body .service-block_four-icon_outer:before{
+	filter: grayscale(100%);
+}
+
+.dark-body .shop-item .inner-box .lower-content .cart{
+	filter: invert(100%);
+}
+
+.dark-body .service-three{
+	background-image: inherit !important;
+}

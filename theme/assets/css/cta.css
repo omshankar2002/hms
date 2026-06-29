@@ -1,0 +1,183 @@
+/* Roisk Luxury Hotel Business HTML-5 Template */
+
+/*** 
+
+====================================================================
+	CTA One
+====================================================================
+
+***/
+
+.cta-one{
+	position:relative;
+	text-align: center;
+	padding: 120px 0px 120px;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.cta-one_pattern{
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}
+
+.cta-one:before{
+	position:absolute;
+	content:'';
+	left:0px;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	opacity: 0.60;
+	background-color: var(--color-two);
+}
+
+.cta-one_heading{
+	position:relative;
+	font-size: 100px;
+	line-height: 100px;
+	text-align:center;
+	margin-bottom: 25px;
+	color: var(--white-color);
+	text-transform: uppercase;
+}
+
+.cta-one_play{
+	position:relative;
+}
+
+.cta-one_play:hover .fa{
+	color: var(--white-color);
+	border-color: var(--black-color);
+	background-color: var(--main-color);
+}
+
+.cta-one_play .fa{
+	position:relative;
+	width:130px;
+	height:130px;
+	margin-top:3px;
+	font-size:28px;
+	line-height:130px;
+	border-radius:100px;
+	display:inline-block;
+	color:var(--color-two);
+	text-align:center !important; 
+	background-color: rgba(var(--white-color-rgb), 1);
+}
+
+.cta-one_styled{
+	position:absolute;
+	left:0px;
+	right:0px;
+	opacity:0.25;
+	bottom:100px;
+	line-height:1em;
+	font-size: 150px;
+	color:var(--white-color);
+	text-transform: capitalize;
+	font-family: "Dancing Script", cursive;
+}
+
+/*** 
+
+====================================================================
+	CTA Two
+====================================================================
+
+***/
+
+.cta-two{
+	position:relative;
+	overflow: hidden;
+	z-index:2;
+}
+
+.cta-two .curve-one{
+	position:absolute;
+	right:130px;
+	top:-50px;
+	width:60px;
+	bottom:-50px;
+	z-index:1;
+	opacity: 0.20;
+	transform: rotate(30deg);
+	background-color: var(--main-color);
+}
+
+.cta-two .curve-two{
+	position:absolute;
+	right:199px;
+	top:-50px;
+	width:60px;
+	bottom:-50px;
+	z-index:1;
+	opacity: 0.40;
+	transform: rotate(30deg);
+	background-color: var(--main-color);
+}
+
+.cta-two .inner-container{
+	position:relative;
+	padding: 70px 80px 70px 0px;
+}
+
+.cta-two .image-layer{
+	position:absolute;
+	right:0px;
+	top:0px;
+	bottom:0px;
+	width:150%;
+	background-size:cover;
+}
+
+.cta-two .image-layer:before{
+	position:absolute;
+	content:'';
+	right:0px;
+	left:0px;
+	top:0px;
+	bottom:0px;
+	opacity:0.90;
+	background-color: var(--color-two);
+}
+
+.cta-two_title{
+	position:relative;
+	z-index:1;
+	text-transform: uppercase;
+	color: var(--white-color);
+}
+
+/*** 
+
+====================================================================
+	CTA Three
+====================================================================
+
+***/
+
+.cta-three{
+	position:relative;
+	z-index:10;
+	background-color: var(--main-color);
+}
+
+.cta-three .inner-container{
+	position:relative;
+	padding: 60px 0px;
+}
+
+.cta-three_heading{
+	position:relative;
+	margin-bottom: 10px;
+	color: var(--white-color);
+	text-transform: uppercase;
+}
+
+.cta-three_title{
+	position:relative;
+	font-size: 20px;
+	margin-top: 10px;
+	color: var(--white-color);
+}

@@ -1,0 +1,92 @@
+/* Roisk Luxury Hotel Business HTML-5 Template */
+
+/*** 
+
+====================================================================
+	Availability One
+====================================================================
+
+***/
+
+.availability-one{
+	position:relative;
+	padding: 80px 0px 80px;
+	background-color:#f6f7f9;
+}
+
+.availability_pattern{
+	position:absolute;
+	left: 30px;
+    top: 45px;
+	width: 180px;
+	height: 180px;
+	z-index:1;
+}
+
+.availability_pattern-two{
+	position:absolute;
+	right: 30px;
+    top: 45px;
+	width: 180px;
+	height: 180px;
+	z-index:1;
+}
+
+.property-search-form{
+	position:relative;
+	z-index:1;
+}
+
+.property-search-form form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	gap: 20px;
+}
+
+.property-search-form .form-group {
+	flex: 1;
+	min-width: 180px;
+}
+
+.property-search-form .form-group input{
+	height: 60px;
+	padding: 10px 20px;
+	background-color: var(--white-color);
+	border:1px solid rgba(var(--black-color-rgb), 0.08);
+}
+
+.property-search-form .form-group label{
+	position:relative;
+	display: block;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	margin-bottom: 10px;
+	color: var(--color-two);
+	text-transform: uppercase;
+}
+
+.property-search-form .form-group input{
+	
+}
+
+.property-search-form .form-group input,
+.property-search-form .form-group select,
+.property-search-form .form-group button {
+	width: 100%;
+}
+
+.property-search-form .form-group button{
+	position:relative;
+	padding: 16px 25px;
+	font-size: 18px;
+	bottom: 4px;
+	color: var(--white-color);
+	background-color: var(--main-color);
+}
+
+.property-search-form .form-group button:hover{
+	background-color: var(--color-two);
+}

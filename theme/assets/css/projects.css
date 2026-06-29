@@ -1,0 +1,370 @@
+/* Roisk Luxury Hotel Business HTML-5 Template */
+
+/*** 
+
+====================================================================
+	project One
+====================================================================
+
+***/
+
+.project-one{
+	position:relative;
+	overflow: hidden;
+	padding: 0px 0px 110px;
+}
+
+.project-one.style-two{
+	padding-top: 110px;
+}
+
+.project-block_one {
+	position: relative;
+	width: 100%;
+	margin-bottom: 20px;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.project-block_one .image {
+	width: 100%;
+	height: 520px;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.project-block_one .image img {
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+	-o-object-fit: none;
+	object-fit: none;
+	border-radius: 20px;
+}
+
+.project-block_one .content {
+	width: -webkit-max-content;
+	width: -moz-max-content;
+	width: max-content;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	background-color: var(--color-two);
+	border-radius: 20px;
+	padding: 0 45px 0;
+	opacity: 0;
+	z-index: 1;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.project-block_one .content .title-info {
+	-webkit-writing-mode: sideways-lr;
+	-ms-writing-mode: sideways-lr;
+	writing-mode: sideways-lr;
+	text-align: left;
+	padding-top: 180px;
+	padding-right: 20px;
+}
+
+.project-block_one .content .sub-title {
+	font-weight: 500;
+	color: var(--white-color);
+}
+
+.project-block_one .content .title {
+	color: var(--white-color);
+	line-height: 35px;
+	text-transform: uppercase;
+}
+
+.project-block_one .content .icon {
+	border-radius: 50%;
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	width: 90px;
+	height: 90px;
+	background-color: var(--main-color);
+	color: var(--white-color);
+	font-size: 50px;
+	position: absolute;
+	bottom: 50px;
+	right: -50px;
+	font-family: "flaticon_qonstruct";
+}
+
+.project-block_one:hover {
+	width: 100%;
+	margin-right: 220px;
+}
+
+.project-block_one:hover .content {
+	opacity: 1;
+	display: block;
+}
+
+.project-block_one.style-2 .content {
+	right: 0;
+}
+
+.project-block_one.style-2 .content .icon {
+	bottom: 70px;
+	right: 135px;
+}
+
+.project-block_one.style-2:hover {
+	margin-right: 0;
+	margin-left: 220px;
+}
+
+.project-slider .swiper-wrapper {
+	-webkit-transition-timing-function: linear;
+	transition-timing-function: linear;
+}
+
+.project-slider .swiper-slide {
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.project-slider .swiper-slide:hover {
+	width: 720px !important;
+	height: 520px;
+}
+
+.project-slider .swiper-slide:hover .project-block_one {
+	position: relative;
+	width: 100%;
+}
+
+.project-slider .swiper-slide:hover .project-block_one .image {
+	position: relative;
+	width: 535px;
+	height: 520px;
+	margin-left: 175px;
+}
+
+.project-slider .swiper-slide:hover .project-block_one .image img {
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+	-o-object-fit: none;
+	object-fit: none;
+	border-radius: 20px;
+}
+
+.project-slider .swiper-slide:hover .project-block_one .content {
+	z-index: 11;
+}
+
+.project-slider .swiper-slide:hover .project-block_one.style-2 .image {
+	margin-right: 175px;
+}
+
+/*** 
+
+====================================================================
+	project Two
+====================================================================
+
+***/
+
+.project-two{
+	position:relative;
+	overflow: hidden;
+	padding: 110px 0px 110px;
+	background-color: #f6f7f9;
+}
+
+
+/***
+
+====================================================================
+	Project Detail
+====================================================================
+
+***/
+
+.project-detail{
+	position:relative;
+	padding:110px 0px 110px;
+	background-position:right bottom;
+	background-repeat:no-repeat;
+}
+
+.project-detail:before{
+	position:absolute;
+	content:'';
+	left:0px;
+	top:0px;
+	right:0px;
+	height:50%;
+	z-index:-1;
+	background-image: linear-gradient(to bottom, #f5f5f5, #f7f7f7, #fafafa, #fcfcfc, #ffffff);
+}
+
+.project-detail_location{
+	position:relative;
+	font-size:16px;
+	display:flex;
+	gap:10px;
+	font-weight:500;
+	color:var(--color-two);
+}
+
+.project-detail_location i{
+	position:relative;
+	font-family: "flaticon_qonstruct";
+}
+
+.project-detail_heading{
+	position:relative;
+	font-weight:700;
+	margin-top:15px;
+	margin-bottom:35px;
+	color:var(--color-two);
+}
+
+.project-detail_image{
+	position:relative;
+	display:block;
+	overflow:hidden;
+	border-radius:25px;
+}
+
+.project-detail_image img{
+	position:relative;
+	width:100%;
+	display:block;
+}
+
+.project-detail_list{
+	position:relative;
+	margin-top:60px;
+	margin-bottom:20px;
+	
+	display: grid;
+    grid-gap: 15px;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.project-detail_list li{
+	position:relative;
+	padding-left:80px;
+	color:#1E1E1E;
+	min-height:62px;
+	font-size:16px;
+	margin-bottom:25px;
+	display:inline-block;
+}
+
+.project-detail_list li:last-child{
+	margin-right:0px;
+}
+
+.project-detail_list li .icon{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:62px;
+	height:62px;
+	font-size: 32px;
+	line-height:60px;
+	text-align:center;
+	border-radius:50px;
+	color: var(--main-color);
+	border:1px solid var(--main-color);
+	font-family: "flaticon_roisk-flat";
+}
+
+.project-detail_list li strong{
+	position:relative;
+	display:block;
+	font-weight:600;
+	margin-top:5px;
+	color:var(--black-color);
+}
+
+.project-detail h3{
+	position:relative;
+	margin-bottom:20px;
+	text-transform:capitalize;
+}
+
+.project-detail p{
+	font-size: 18px;
+	line-height: 32px;
+	margin-bottom:15px;
+}
+
+.project-detail_list-two{
+	position:relative;
+}
+
+.project-detail_list-two li{
+	position:relative;
+	font-size:18px;
+	line-height:32px;
+	margin-bottom:15px;
+	color: var(--color-three);
+}
+
+.project-detail_list-two li span{
+	position:relative;
+	font-weight:700;
+	color:var(--color-two);
+}
+
+.project-detail .middle-box{
+	position:relative;
+	margin-top:35px;
+	margin-bottom:40px;
+}
+
+.more-projects{
+	position:relative;
+	margin-top:40px;
+	border-radius:50px;
+	border:1px solid rgba(0,0,0,0.20);
+}
+
+.more-projects:before{
+	position:absolute;
+	content:'';
+	left:50%;
+	top:0px;
+	width:1px;
+	opacity:0.20;
+	bottom:0px;
+	background-color:var(--black-color);
+}
+
+.more-projects a{
+	position:relative;
+	display:block;
+	font-weight:600;
+	padding:22px 30px;
+	text-transform:uppercase;
+	color:var(--black-color);
+}
+
+.more-projects i{
+	position:relative;
+	color:var(--main-color);
+}
+
+.more-projects a:hover{
+	color:var(--main-color);
+}

@@ -1,0 +1,71 @@
+/* Roisk Luxury Hotel Business HTML-5 Template */
+
+/*** 
+
+====================================================================
+	Skill One
+====================================================================
+
+***/
+
+.skill-one{
+	position:relative;
+	overflow: hidden;
+	padding: 110px 0px 80px;
+}
+
+.skill-one .column{
+	position:relative;
+	margin-bottom: 20px;
+}
+
+.skill-one .bold-text {
+    position: relative;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    margin-top: 20px;
+	margin-bottom: 25px;
+    color: var(--color-two);
+	text-transform:capitalize;
+	font-family: "Barlow Condensed", sans-serif;
+}
+
+.skill-one_icon{
+	position:absolute;
+	right: 50px;
+	top: 150px;
+	width: 571px;
+	height: 708px;
+	background-repeat: no-repeat;
+}
+
+.about-one_list {
+    position: relative;
+	margin-bottom: 0px;
+}
+
+.about-one_list li{
+    position: relative;
+    font-size: 18px;
+    padding-left: 25px;
+    margin-bottom: 15px;
+    color: var(--color-two);
+	text-transform:capitalize;
+}
+
+.about-one_list li:before{
+	position: absolute;
+    content: "\f12b";
+    left: 0px;
+    top: 0px;
+    color: var(--main-color);
+    font-family: "flaticon_roisk-flat";
+}
+
+.about-one_image{
+	position:relative;
+	overflow: hidden;
+	border-radius: 15px;
+	display:inline-block;
+}

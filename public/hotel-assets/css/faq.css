@@ -1,0 +1,55 @@
+/* Roisk Luxury Hotel Business HTML-5 Template */
+
+/*** 
+
+====================================================================
+	Faq One
+====================================================================
+
+***/
+
+.faq-one{
+	position:relative;
+	overflow: hidden;
+	padding: 110px 0px 80px;
+	background-color:#f6f8fb;
+}
+
+.faq-one.style-two{
+	padding-top: 240px;
+}
+
+.faq-one .accordion-column{
+	position:relative;
+	margin-bottom: 30px;
+}
+
+.faq-one .image-column{
+	position:relative;
+	text-align:right;
+	margin-bottom: 30px;
+}
+
+.faq-one_image{
+	position:relative;
+	overflow: hidden;
+	margin-right: -80px;
+	margin-top: -110px;
+	display: inline-block;
+}
+
+.faq-one_image-two{
+	position:absolute;
+	right:-50px;
+	bottom:35px;
+	display: inline-block;
+	border: 5px solid var(--white-color);
+}
+
+.faq-one_image-three{
+	position:absolute;
+	left:40px;
+	top: 100px;
+	display: inline-block;
+	border: 5px solid var(--white-color);
+}
